@@ -1,0 +1,45 @@
+:root {
+  --color-primary-orange: hsl(25, 97%, 53%);
+
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-light-grey-light: hsl(217, 12%, 63%);
+  --color-light-grey-medium: hsl(216, 12%, 54%);
+  --color-light-blue-dark: hsl(213, 19%, 18%);
+  --color-light-blue-dark-heavy: hsl(216, 12%, 8%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 144rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Overpass', sans-serif;
+  background-color: var(--color-light-blue-dark-heavy);
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--color-neutral-white);
+  @media only screen and (max-width: 23.4375em) {
+    font-size: 2.4rem;
+  }
+}
+
+p {
+  color: var(--color-light-grey-light);
+  line-height: 2.4rem;
+}

@@ -1,0 +1,16 @@
+.container {
+  max-width: 41.2rem;
+  margin: 19.5rem auto 0 auto;
+
+  border-radius: 3rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(35, 42, 52, 1),
+    rgba(24, 30, 39, 1)
+  );
+
+  @media only screen and (max-width: 23.4375em) {
+    max-width: 32.7rem;
+    margin: 15.4rem auto 0 auto;
+  }
+}

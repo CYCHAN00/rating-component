@@ -1,0 +1,19 @@
+.btn {
+  text-transform: uppercase;
+  height: 4.5rem;
+  border: none;
+  width: 100%;
+  border-radius: 2.25rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background-color: var(--color-primary-orange);
+  color: var(--color-neutral-white);
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover,
+  &:active {
+    background-color: var(--color-neutral-white);
+    color: var(--color-primary-orange);
+  }
+}
